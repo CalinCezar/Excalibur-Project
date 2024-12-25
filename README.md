@@ -13,7 +13,7 @@ git clone https://github.com/CalinCezar/Excalibur-Project.git
 ```bash
 cd Excalibur-Project
 ```
-3. Create a virtual environemnt
+3. Run docker container for Weaviate
 
 ```bash
 docker-compose up
