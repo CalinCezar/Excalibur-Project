@@ -13,19 +13,24 @@ git clone https://github.com/CalinCezar/Excalibur-Project.git
 ```bash
 cd Excalibur-Project
 ```
-3. Run docker container for Weaviate
+
+3. There find the `.env.template ` file and dublicate it
+
+Open the `.env` file and replace the placeholder value with your actual key
+
+4. Run docker container for Weaviate
 
 ```bash
 docker-compose up
 ```
 
-4. Create a virtual environemnt
+5. Create a virtual environemnt
 
 ```bash
 python3 -m venv venv
 ```
 
-5. Activate the virtual environment
+6. Activate the virtual environment
 for Linux/Mac
 ```bash
 source venv/bin/activate
@@ -36,16 +41,11 @@ for Windows
 venv\Scripts\activate
 
 ```
-6. Install the dependencies
+7. Install the dependencies
 
 ```bash
-pip install -r requirements.txt
-```
+pip install .
 
-7. Build the application
-
-```bash
-pip install -e .[dev]
 ```
 
 8. Build the application
@@ -65,3 +65,5 @@ http://localhost:8501
 ```bash
 tox
 ```
+
+Happy coding! 🎄✨🎁
