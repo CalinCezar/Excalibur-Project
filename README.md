@@ -48,7 +48,7 @@ pip install .
 
 ```
 
-8. Build the application
+8. Run the application
 
 ```bash
 streamlit run app.py

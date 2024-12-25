@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 .env
+=======
+__pycache__
+*.egg-info/
+venv/
+>>>>>>> 22903e262994dfb4ec681f964595d4f41427474f
