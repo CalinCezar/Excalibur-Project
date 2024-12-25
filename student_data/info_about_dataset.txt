@@ -1,3 +1,7 @@
+This a data set taken from Kaggle. 
+It is about students from a Technical university (this explains some details when visualizing)
+
+The columns:
 Student ID
 1- Student Age (1: 18-21, 2: 22-25, 3: above 26)
 2- Sex (1: female, 2: male)
