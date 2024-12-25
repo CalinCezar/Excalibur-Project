@@ -1,0 +1,12 @@
+PyPDF2
+sentence-transformers
+transformers
+deep-translator
+weaviate
+weaviate-client
+typing-extensions
+torch
+numpy
+pandas
+sentencepiece
+streamlit
