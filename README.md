@@ -33,7 +33,7 @@ source venv/bin/activate
 ```
 for Windows
 ```bash
-source venv\Scripts\activate
+venv\Scripts\activate
 
 ```
 6. Install the dependencies
@@ -51,7 +51,7 @@ pip install -e .[dev]
 8. Build the application
 
 ```bash
-streamlit run ui/app.py
+streamlit run app.py
 ```
 
 9. Navigate to the following URL in your browser and check the documentation and interact with the API
