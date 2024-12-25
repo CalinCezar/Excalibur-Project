@@ -1,5 +1,18 @@
 # Excalibur-Project
-AI project for educational purposes
+
+The Excalibur Project is a document processing and question generation system that processes PDF documents, stores extracted content in a vector database, and generates relevant questions based on user queries. In addition to these capabilities, the system includes features for schedule creation, data analysis, data training, and prediction—providing comprehensive tools to extract insights, predict student succes, and generate customized schedules based on document content
+
+## Features
+- Schedule Creation
+- Data Analysis
+- Data Prediction
+- Data visualization
+- PDF text extraction and cleaning
+- Document embedding generation
+- Vector database storage using Weaviate
+- Question generation using T5 model
+- Streamlit web interface
+
 ## Setup Instructions
 
 1. Clone the repository
@@ -44,23 +57,28 @@ venv\Scripts\activate
 7. Install the dependencies
 
 ```bash
-pip install .
-
+pip install -r requirements.txt
 ```
 
-8. Run the application
+8. Build the application
+
+```bash
+pip install -e .[dev]
+```
+
+9. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-9. Navigate to the following URL in your browser and check the documentation and interact with the API
+10. Navigate to the following URL in your browser and check the documentation and interact with the API
 
 ```
 http://localhost:8501
 ```
 
-10. Additionally, you can run the tox check with the following command
+11. Additionally, you can run the tox check with the following command
 
 ```bash
 tox
