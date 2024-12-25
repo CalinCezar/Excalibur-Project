@@ -1,5 +1,15 @@
 # Excalibur-Project
-AI project for educational purposes
+
+A document processing and question generation system that processes PDF documents, stores their content in a vector database, and generates relevant questions based on user queries.
+
+## Features
+
+- PDF text extraction and cleaning
+- Document embedding generation
+- Vector database storage using Weaviate
+- Question generation using T5 model
+- Streamlit web interface
+
 ## Setup Instructions
 
 1. Clone the repository
