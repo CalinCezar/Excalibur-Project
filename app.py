@@ -1,7 +1,14 @@
 import streamlit as st
 import base64
 # Display some text on the page
-st.write('Hello, Sigmoiterians!')
+import streamlit as st
+
+# Display the text with Markdown and style it
+st.markdown(
+    "<h1 style='color: blue ;'>Hello, Sigmoiterians!</h1>", 
+    unsafe_allow_html=True
+)
+
 
 # Create a placeholder to show/hide the image
 image_placeholder = st.empty()
