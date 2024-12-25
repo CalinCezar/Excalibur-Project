@@ -1,9 +1,12 @@
 # Excalibur-Project
 
-A document processing and question generation system that processes PDF documents, stores their content in a vector database, and generates relevant questions based on user queries.
+The Excalibur Project is a document processing and question generation system that processes PDF documents, stores extracted content in a vector database, and generates relevant questions based on user queries. In addition to these capabilities, the system includes features for schedule creation, data analysis, data training, and prediction—providing comprehensive tools to extract insights, predict student succes, and generate customized schedules based on document content
 
 ## Features
-
+- Schedule Creation
+- Data Analysis
+- Data Prediction
+- Data visualization
 - PDF text extraction and cleaning
 - Document embedding generation
 - Vector database storage using Weaviate
