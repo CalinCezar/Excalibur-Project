@@ -10,3 +10,10 @@ numpy
 pandas
 sentencepiece
 streamlit
+openai==0.28
+scikit-learn
+seaborn
+python-dotenv
+matplotlib
+imbalanced-learn
+xgboost
