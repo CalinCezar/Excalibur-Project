@@ -44,23 +44,28 @@ venv\Scripts\activate
 7. Install the dependencies
 
 ```bash
-pip install .
-
+pip install -r requirements.txt
 ```
 
-8. Run the application
+8. Build the application
+
+```bash
+pip install -e .[dev]
+```
+
+9. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-9. Navigate to the following URL in your browser and check the documentation and interact with the API
+10. Navigate to the following URL in your browser and check the documentation and interact with the API
 
 ```
 http://localhost:8501
 ```
 
-10. Additionally, you can run the tox check with the following command
+11. Additionally, you can run the tox check with the following command
 
 ```bash
 tox
