@@ -1,6 +1,5 @@
-# !pip install streamlit
 import streamlit as st
-
+import base64
 # Display some text on the page
 st.write('Hello, Sigmoiterians!')
 
