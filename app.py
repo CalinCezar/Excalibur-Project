@@ -10,6 +10,7 @@ st.markdown(
 )
 
 
+
 # Create a placeholder to show/hide the image
 image_placeholder = st.empty()
 
@@ -64,3 +65,18 @@ st.markdown(f"""
         }}
     </style>
 """, unsafe_allow_html=True)
+
+
+
+st.markdown(
+    """
+    **Hi, dear student!**  
+    Welcome to your personalized learning assistant:
+    
+    - Process documents and extract valuable data
+    - Help create customized study schedules
+    - Provide insights and recommendations for academic success
+        
+    All of this is designed to support your learning journey and optimize your academic success. Let’s get started!
+    """
+)
